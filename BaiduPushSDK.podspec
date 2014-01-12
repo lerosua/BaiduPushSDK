@@ -30,5 +30,9 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/BaiduPushSDK/**"' }
-
+  s.dependency 'Base64'
+  s.dependency 'JSONKit'
+  s.dependency 'OpenUDID'
+  s.dependency "Reachability", "~> 3.1"
+  
 end
