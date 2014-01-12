@@ -27,12 +27,8 @@ Pod::Spec.new do |s|
   s.library   = 'BPush','z'
   s.framework = 'CFNetwork', 'CoreTelephony', 'SystemConfiguration'
   
-  # s.requires_arc = true
+  #s.requires_arc = true
 
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/BaiduPushSDK/**"' }
-  s.dependency 'Base64'
-  s.dependency 'JSONKit'
-  s.dependency 'OpenUDID'
-  s.dependency "Reachability", "~> 3.1"
-  
+
 end
