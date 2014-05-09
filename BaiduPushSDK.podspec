@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author             = { "liyoro" => "liyoro.li@gmail.com" }
   s.platform     = :ios
 
-  s.source       = { :git => "https://github.com/liyoro/BaiduPushSDK.git", :tag => "1.1.0"  }
+  s.source       = { :git => "https://github.com/lerosua/BaiduPushSDK.git", :tag => "1.1.0"  }
 
   s.source_files  = 'BaiduPushSDK/*.{h,m}'
   s.preserve_paths = "BaiduPushSDK/libBPush.a"
