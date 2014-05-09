@@ -3,9 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "1.1.0"
   s.summary      = "BaiduPushSDK."
 
-  s.description  = "
-                   A longer description of BaiduPushSDK in Markdown format.
-
+  s.description  = "A longer description of BaiduPushSDK in Markdown format.
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
                    * Try to keep it short, snappy and to the point.
@@ -17,7 +15,7 @@ Pod::Spec.new do |s|
        :type => 'Copyright', 
        :text => 'LICENSE  ©2013 Baidu, Inc. All rights reserved.' 
     }
-  s.author             = { "liyoro" => "liyoro.li@gmail.com" }
+  s.author             = { "lerosua" => "lerosua@gmail.com" }
   s.platform     = :ios
 
   s.source       = { :git => "https://github.com/lerosua/BaiduPushSDK.git" }
