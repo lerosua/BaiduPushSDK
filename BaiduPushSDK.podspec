@@ -3,14 +3,14 @@ Pod::Spec.new do |s|
   s.version      = "1.1.0"
   s.summary      = "BaiduPushSDK."
 
-  s.description  = <<-DESC
+  s.description  = "
                    A longer description of BaiduPushSDK in Markdown format.
 
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
                    * Try to keep it short, snappy and to the point.
                    * Finally, don't worry about the indent, CocoaPods strips it!
-                   DESC
+                   "
 
   s.homepage     = "http://developer.baidu.com/wiki/index.php?title=docs/cplat/push"
   s.license      = {
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author             = { "liyoro" => "liyoro.li@gmail.com" }
   s.platform     = :ios
 
-  s.source       = { :git => "https://github.com/lerosua/BaiduPushSDK.git", :tag => "1.1.0"  }
+  s.source       = { :git => "https://github.com/lerosua/BaiduPushSDK.git" }
 
   s.source_files  = 'BaiduPushSDK/*.{h,m}'
   s.preserve_paths = "BaiduPushSDK/libBPush.a"
