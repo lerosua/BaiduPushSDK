@@ -59,6 +59,7 @@
 
 static NSString * kOpenUDIDSessionCache = nil;
 static NSString * const kOpenUDIDDescription = @"OpenUDID_with_iOS6_Support";
+#pragma unused(kOpenUDIDDescription)
 static NSString * const kOpenUDIDKey = @"OpenUDID";
 static NSString * const kOpenUDIDSlotKey = @"OpenUDID_slot";
 static NSString * const kOpenUDIDAppUIDKey = @"OpenUDID_appUID";
