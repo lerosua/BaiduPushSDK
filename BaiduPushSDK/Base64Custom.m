@@ -16,7 +16,7 @@
 //  the License.
 //
 
-#import "Base64.h"
+#import "Base64Custom.h"
 #import "Base64Defines.h"
 
 static const char *kBase64EncodeChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
