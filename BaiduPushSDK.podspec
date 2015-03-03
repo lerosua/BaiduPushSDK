@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.library   = 'BPush','z'
   s.framework = 'CFNetwork', 'CoreTelephony', 'SystemConfiguration'
   
-  #s.requires_arc = true
+  s.requires_arc = false
 
   s.xcconfig      = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/BaiduPushSDK/**"'}
 
